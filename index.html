@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pixel dock - beyond next gen</title>
+  <link href="https://fonts.googleapis.com/css2?family=orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'orbitron', sans-serif;
+      background: radial-gradient(circle at top, #0f0f1f, #000);
+      color: white;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px;
+      font-size: 48px;
+      background: linear-gradient(90deg, #00f0ff, #8a2eff);
+      -webkit-background-clip: text;
+      color: transparent;
+      font-weight: bold;
+      text-shadow: 0 0 20px #00f0ff;
+    }
+
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero {
+      font-size: 50px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 30px #00f0ff;
+    }
+
+    .tagline {
+      font-size: 20px;
+      color: #aaa;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      background: linear-gradient(90deg, #00f0ff, #8a2eff);
+      padding: 20px 50px;
+      border: none;
+      font-size: 20px;
+      color: white;
+      border-radius: 35px;
+      cursor: pointer;
+      box-shadow: 0 0 30px #00f0ff;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.15);
+      box-shadow: 0 0 60px #8a2eff;
+    }
+
+    .specs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      padding: 30px;
+      border-radius: 25px;
+      backdrop-filter: blur(15px);
+      box-shadow: 0 0 30px rgba(0,240,255,0.5);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-15px) scale(1.08);
+    }
+
+    .comparison {
+      margin-top: 60px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    .box {
+      padding: 30px;
+      border-radius: 20px;
+    }
+
+    .pixel {
+      background: rgba(0,240,255,0.15);
+      box-shadow: 0 0 30px #00f0ff;
+      font-weight: bold;
+    }
+
+    .other {
+      background: rgba(255,0,0,0.15);
+      box-shadow: 0 0 30px red;
+    }
+
+    .extra-info {
+      margin-top: 50px;
+      text-align: left;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 18px;
+      line-height: 1.8;
+      color: #ccc;
+    }
+
+    footer {
+      padding: 40px;
+      text-align: center;
+      color: #777;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<header>pixel dock</header>
+
+<section>
+  <div class="hero">not next-gen. beyond-gen.</div>
+  <div class="tagline">power. speed. domination. ultimate gaming experience.</div>
+  <a href="javascript:void(0);" class="btn" onclick="orderNow()">pre-order now – 1399 aed</a>
+</section>
+
+<section>
+  <h2>⚡ insane specs</h2>
+  <div class="specs">
+    <div class="card"><h3>storage</h3><p>2tb hyper ssd</p></div>
+    <div class="card"><h3>graphics</h3><p>8k ready + ultra ray tracing</p></div>
+    <div class="card"><h3>performance</h3><p>up to 240 fps</p></div>
+    <div class="card"><h3>cooling</h3><p>zero noise liquid cooling</p></div>
+    <div class="card"><h3>connectivity</h3><p>wi-fi 7 + bluetooth 6</p></div>
+    <div class="card"><h3>ports</h3><p>hdmi 2.1, usb-c, 3x usb 3.2</p></div>
+  </div>
+</section>
+
+<section>
+  <h2> pixel dock vs others</h2>
+  <div class="comparison">
+    <div class="box pixel">
+      <h3>pixel dock</h3>
+      <p>✔ faster load times</p>
+      <p>✔ higher fps</p>
+      <p>✔ better cooling</p>
+      <p>✔ more storage</p>
+      <p>✔ ultra connectivity</p>
+    </div>
+    <div class="box other">
+      <h3>other consoles</h3>
+      <p>✖ slower</p>
+      <p>✖ less storage</p>
+      <p>✖ louder</p>
+      <p>✖ outdated</p>
+      <p>✖ weak connectivity</p>
+    </div>
+  </div>
+</section>
+
+<section class="extra-info">
+  <h2>more info</h2>
+  <p>pixel dock is designed for gamers who demand nothing but the best. experience ultra fast ssd storage, breathtaking 8k graphics, and performance that crushes the competition. with silent liquid cooling, next-level connectivity, and premium build quality, pixel dock sets the new standard in gaming.</p>
+  <p>for more info send us a email at madhavappu@gmail.com</p>
+</section>
+
+<footer>
+  © 2026 pixel dock. built different.
+</footer>
+
+<script>
+function orderNow() {
+  document.body.innerHTML = '<section style="text-align:center; padding:100px;"><h1>your order will be ready in dec 2026</h1></section>';
+}
+</script>
+
+</body>
+</html>
